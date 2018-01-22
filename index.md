@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-title: "Grenoble Software Carpentry 2018" added by RB
+title: "Grenoble Software Carpentry 2018" # added by RB
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "IMAG building"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Seminar Rooms, Ground floor, IMAG building, 700 avenue Centrale, Domaine Universitaire - 38401 St Martin d'Hères"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
