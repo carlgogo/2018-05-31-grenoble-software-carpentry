@@ -9,7 +9,7 @@ carpentry: "swc"
 title: "Grenoble Software Carpentry 2018"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: raphael.bacher@univ-grenoble-alpes.fr
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
