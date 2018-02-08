@@ -28,24 +28,6 @@ eventbrite:  42624480970       # optional: alphanumeric key for Eventbrite regis
   And run 'bin/workshop_check.py' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-{% comment %}
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<strong>The workshop is free but pre-registration is mandatory. Places will be at the end limited to 20 people for Git/Bash+R and 20 people for Git/Bash+Python, so a definitive registration will be asked a few weeks before the event (on a first come first serve basis).</strong>
-<iframe
-  src="https://eventbrite.fr/tickets-external?eid={{ page.eventbrite }}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="248px"
-  scrolling="auto">
-</iframe>
-{% endif %}
 
 <h2 id="general">General Information</h2>
 
@@ -179,6 +161,25 @@ eventbrite:  42624480970       # optional: alphanumeric key for Eventbrite regis
 </p>
 
 <hr/>
+
+{% comment %}
+  EVENTBRITE
+
+  This block includes the Eventbrite registration widget if
+  'eventbrite' has been set in the header.  You can delete it if you
+  are not using Eventbrite, or leave it in, since it will not be
+  displayed if the 'eventbrite' field in the header is not set.
+{% endcomment %}
+{% if page.eventbrite %}
+<strong>The workshop is free but pre-registration is mandatory. Places will be at the end limited to 20 people for Git/Bash+R and 20 people for Git/Bash+Python, so a definitive registration will be asked a few weeks before the event (on a first come first serve basis).</strong>
+<iframe
+  src="https://eventbrite.fr/tickets-external?eid={{ page.eventbrite }}&ref=etckt"
+  frameborder="0"
+  width="100%"
+  height="248px"
+  scrolling="auto">
+</iframe>
+{% endif %}
 
 {% comment %}
   SCHEDULE
