@@ -176,7 +176,7 @@ eventbrite:  42624480970       # optional: alphanumeric key for Eventbrite regis
   src="https://eventbrite.fr/tickets-external?eid={{ page.eventbrite }}&ref=etckt"
   frameborder="0"
   width="100%"
-  height="380px"
+  height="400px"
   scrolling="auto">
 </iframe>
 {% endif %}
