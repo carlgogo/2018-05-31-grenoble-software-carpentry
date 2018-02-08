@@ -14,7 +14,7 @@ instructor: ["Loic Esteve","Carlos Gomez Gonzalez", "Florian Privé", "Raphael B
 helper: ["Magali Richard", "Michael Blum"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["raphael.bacher@univ-grenoble-alpes.fr"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: http://pads.univ-grenoble-alpes.fr/p/2018-05-31-grenoble-soft-carpentry          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:  https://www.eventbrite.fr/e/billets-grenoble-software-carpentry-2018-42624480970         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:  42624480970       # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -38,7 +38,7 @@ eventbrite:  https://www.eventbrite.fr/e/billets-grenoble-software-carpentry-201
 {% endcomment %}
 {% if page.eventbrite %}
 <iframe
-  src="{{ page.eventbrite }}"
+  src="https://eventbrite.fr/tickets-external?eid={{ page.eventbrite }}"
   frameborder="0"
   width="100%"
   height="248px"
