@@ -37,7 +37,7 @@ eventbrite:  42624480970       # optional: alphanumeric key for Eventbrite regis
   displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-The workshop is free but pre-registration is mandatory. Places will be at the end limited to 20 people for Git/Bash+R and 20 people for Git/Bash+Python, so a definitive registration will be asked a few weeks before the event (on a first come first serve basis).
+<strong>The workshop is free but pre-registration is mandatory. Places will be at the end limited to 20 people for Git/Bash+R and 20 people for Git/Bash+Python, so a definitive registration will be asked a few weeks before the event (on a first come first serve basis).</strong>
 <iframe
   src="https://eventbrite.fr/tickets-external?eid={{ page.eventbrite }}&ref=etckt"
   frameborder="0"
